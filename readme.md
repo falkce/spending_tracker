@@ -6,5 +6,7 @@ So I created a table in my PostgresDB which will store the data. To insert new v
 ![screenshot](screenshots/process.png)
 
 Normally I would use psycopg2 to connect to PostgresDB. However since it includes a lot of C code and C-based modules are not supported in Pythonista
-I use [pg8000](https://pypi.org/project/pg8000/) instead.
+I use [pg8000](https://pypi.org/project/pg8000/) instead. To install it using pip you have to install [StaSH](https://github.com/ywangd/stash) first.
 
+## Demo
+![](screenshots/demo.gif)
